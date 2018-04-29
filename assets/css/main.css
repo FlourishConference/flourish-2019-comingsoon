@@ -4,10 +4,14 @@
   background: -webkit-radial-gradient(circle, #9718bd 0%, #5a1270 45%, #3a0e47 65%, #24082c 100%);
   background: -o-radial-gradient(circle, #9718bd 0%, #5a1270 45%, #3a0e47 65%, #24082c 100%);
   background: radial-gradient(circle, #9718bd 0%, #5a1270 45%, #3a0e47 65%, #24082c 100%);
+  background-attachment: fixed;
   color: #ffffff;
-  min-height: 600px;
+  min-height: 900px;
   width: 100vw;
   height: 100vh; }
+  .header p {
+    text-align: center;
+    font-size: 1.5em; }
   .header a {
     color: white; }
   .header a.button {
@@ -27,11 +31,9 @@
     .header a.button:hover {
       color: #000000;
       background-color: #FFFFFF; }
-  .header p.topPos {
-    text-align: center;
-    font-size: 1.5em;
+  .header .topPos {
     position: relative;
-    top: 200px; }
+    top: 120px; }
   .header .title {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -41,7 +43,7 @@
     width: 80%;
     margin: 0 auto;
     position: relative;
-    top: 25vh;
+    top: 20vh;
     -webkit-filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.8));
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.8)); }
     .header .title h1 {
@@ -65,26 +67,37 @@
     -webkit-filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.8));
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.8)); }
   .header section.content {
-    text-align: center;
-    font-size: 1.5em;
-    position: relative;
-    top: 200px; }
+    text-align: center; }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .wrapper .header .title {
-    max-width: 500px; }
-    .wrapper .header .title h1 {
-      font-size: 4em; }
-  .wrapper .header .subtitle {
-    width: 175px; } }
+  .wrapper .header {
+    min-height: 700px; }
+    .wrapper .header p {
+      font-size: 1.3em; }
+    .wrapper .header .title {
+      max-width: 500px;
+      top: 15vh; }
+      .wrapper .header .title h1 {
+        font-size: 4em; }
+    .wrapper .header .subtitle {
+      width: 175px; }
+  .wrapper .topPos {
+    top: 100px; } }
 
 @media (min-width: 480px) and (max-width: 768px) {
-  .wrapper .header .title {
-    max-width: 400px; }
-    .wrapper .header .title h1 {
-      font-size: 3em; }
-  .wrapper .header .subtitle {
-    width: 125px; }
+  .wrapper .header {
+    min-height: 575px; }
+    .wrapper .header p {
+      font-size: 1.2em; }
+    .wrapper .header .title {
+      max-width: 400px;
+      top: 12vh; }
+      .wrapper .header .title h1 {
+        font-size: 3em; }
+    .wrapper .header .subtitle {
+      width: 125px; }
+    .wrapper .header .topPos {
+      top: 50px; }
   a {
     display: block;
     float: none;
@@ -93,12 +106,19 @@
 @media (max-width: 480px) {
   body {
     font-size: 12px; }
-  .wrapper .header .title {
-    max-width: 400px; }
-    .wrapper .header .title h1 {
-      font-size: 3em; }
-  .wrapper .header .subtitle {
-    width: 125px; } }
+  .wrapper .header {
+    min-height: 500px; }
+    .wrapper .header p {
+      font-size: 1em; }
+    .wrapper .header .title {
+      max-width: 400px;
+      top: 10vh; }
+      .wrapper .header .title h1 {
+        font-size: 3em; }
+    .wrapper .header .subtitle {
+      width: 125px; }
+    .wrapper .header .topPos {
+      top: 20px; } }
 
 .bg-tree {
   position: fixed;

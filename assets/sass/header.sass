@@ -1,4 +1,7 @@
 .header
+  p
+    text-align: center
+    font-size: 1.5em
   a
     color: white
   a.button
@@ -17,15 +20,15 @@
       background-color: #FFFFFF
   background: rgb(151,24,189)
   background: radial-gradient(circle, rgba(151,24,189,1) 0%, rgba(90,18,112,1) 45%, rgba(58,14,71,1) 65%, rgba(36,8,44,1) 100%)
+  background-attachment: fixed
   color: #ffffff
-  min-height: 600px
+  min-height: 900px
   width: 100vw
   height: 100vh
-  p.topPos
-    text-align: center
-    font-size: 1.5em
+
+  .topPos
     position: relative
-    top: 200px
+    top: 120px
 
   .title
     user-select: none
@@ -33,7 +36,7 @@
     width: 80%
     margin: 0 auto
     position: relative
-    top: 25vh
+    top: 20vh
     filter: drop-shadow(0 3px 3px rgba(0, 0, 0, 0.8))
 
 
@@ -57,30 +60,38 @@
 
   section.content
     text-align: center
-    font-size: 1.5em
-    position: relative
-    top: 200px
 
 
 @media (min-width: 768px) and (max-width: 1024px)
   .wrapper
     .header
+      min-height: 700px
+      p
+        font-size: 1.3em
       .title
         max-width: 500px
+        top: 15vh
         h1
           font-size: 4em
       .subtitle
         width: 175px
-
+    .topPos
+      top: 100px
 @media (min-width: 480px) and (max-width: 768px)
   .wrapper
     .header
+      min-height: 575px
+      p
+        font-size: 1.2em
       .title
         max-width: 400px
+        top: 12vh
         h1
           font-size: 3em
       .subtitle
         width: 125px
+      .topPos
+        top: 50px
   a
     display: block
     float: none
@@ -90,9 +101,15 @@
     font-size: 12px
   .wrapper
     .header
+      min-height: 500px
+      p
+        font-size: 1em
       .title
         max-width: 400px
+        top: 10vh
         h1
           font-size: 3em
       .subtitle
         width: 125px
+      .topPos
+        top: 20px
