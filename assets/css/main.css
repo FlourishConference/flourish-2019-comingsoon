@@ -28,13 +28,14 @@ a.button {
 
 .wrapper {
   margin: 0 auto;
+  min-height: 600px;
   width: 100vw;
   height: 100vh;
   margin: 0;
   background: #9718bd;
-  background: -webkit-radial-gradient(circle, #9718bd 0%, #24082c 95%);
-  background: -o-radial-gradient(circle, #9718bd 0%, #24082c 95%);
-  background: radial-gradient(circle, #9718bd 0%, #24082c 95%);
+  background: -webkit-radial-gradient(circle, #9718bd 0%, #24082c 90%);
+  background: -o-radial-gradient(circle, #9718bd 0%, #24082c 90%);
+  background: radial-gradient(circle, #9718bd 0%, #24082c 90%);
   color: #ffffff; }
 
 .header .title {
@@ -45,7 +46,7 @@ a.button {
     font-size: 5.5em;
     margin: 0; }
   .header .title h1:nth-child(1) {
-    padding-top: 25vh; }
+    padding-top: 200px; }
   .header .title h1:nth-child(2) {
     font-family: Lato;
     font-weight: 100; }
