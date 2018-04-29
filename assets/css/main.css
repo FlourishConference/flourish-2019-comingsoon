@@ -77,3 +77,157 @@ a.button {
     font-size: 1.5em;
     letter-spacing: -7px;
     margin-top: 0px; }
+
+.bg-tree {
+  position: fixed;
+  opacity: 0.2;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s; }
+
+.fade {
+  opacity: 0; }
+
+.bg-tree:nth-child(1) {
+  width: 100px;
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  top: 20vh;
+  left: 80vw; }
+
+.bg-tree:nth-child(2) {
+  width: 120px;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  top: 30vh;
+  left: 20vw; }
+
+.bg-tree:nth-child(3) {
+  width: 180px;
+  -webkit-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  top: 70vh;
+  left: 50vw; }
+
+.bg-tree:nth-child(4) {
+  width: 210px;
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+  top: 30vh;
+  left: 60vw; }
+
+.bg-tree:nth-child(5) {
+  width: 220px;
+  -webkit-transform: rotate(220deg);
+  -ms-transform: rotate(220deg);
+  transform: rotate(220deg);
+  top: 60vh;
+  left: 30vw; }
+
+.bg-tree:nth-child(6) {
+  width: 170px;
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+  top: 80vh;
+  left: 80vw; }
+
+.bg-tree:nth-child(7) {
+  width: 140px;
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+  top: 10vh;
+  left: 20vw; }
+
+.bg-tree:nth-child(8) {
+  width: 160px;
+  -webkit-transform: rotate(600deg);
+  -ms-transform: rotate(600deg);
+  transform: rotate(600deg);
+  top: 20vh;
+  left: 50vw; }
+
+.bg-tree:nth-child(9) {
+  width: 190px;
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+  top: 70vh;
+  left: 10vw; }
+
+.bg-tree:nth-child(10) {
+  width: 120px;
+  -webkit-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  transform: rotate(20deg);
+  top: 55vh;
+  left: 15vw; }
+
+.bg-tree:nth-child(11) {
+  width: 150px;
+  -webkit-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  top: 35vh;
+  left: 25vw; }
+
+.bg-tree:nth-child(12) {
+  width: 190px;
+  -webkit-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  top: 85vh;
+  left: 22vw; }
+
+.bg-tree:nth-child(13) {
+  width: 170px;
+  -webkit-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+  top: 80vh;
+  left: 70vw; }
+
+.bg-tree:nth-child(14) {
+  width: 200px;
+  -webkit-transform: rotate(220deg);
+  -ms-transform: rotate(220deg);
+  transform: rotate(220deg);
+  top: 17vh;
+  left: 65vw; }
+
+.bg-tree:nth-child(15) {
+  width: 220px;
+  -webkit-transform: rotate(150deg);
+  -ms-transform: rotate(150deg);
+  transform: rotate(150deg);
+  top: 17vh;
+  left: 30vw; }
+
+.bg-tree:nth-child(16) {
+  width: 160px;
+  -webkit-transform: rotate(300deg);
+  -ms-transform: rotate(300deg);
+  transform: rotate(300deg);
+  top: 10vh;
+  left: 10vw; }
+
+.bg-tree:nth-child(17) {
+  width: 130px;
+  -webkit-transform: rotate(600deg);
+  -ms-transform: rotate(600deg);
+  transform: rotate(600deg);
+  top: 35vh;
+  left: 5vw; }
+
+.bg-tree:nth-child(18) {
+  width: 100px;
+  -webkit-transform: rotate(240deg);
+  -ms-transform: rotate(240deg);
+  transform: rotate(240deg);
+  top: 50vh;
+  left: 80vw; }
