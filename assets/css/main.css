@@ -78,6 +78,13 @@
     #one .hero .tagline {
       height: 3em; } }
 
+.bg-tree-container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  pointer-events: none; }
+
 .bg-tree {
   position: absolute;
   opacity: 0.15;
